@@ -1,0 +1,75 @@
+.title {
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.text {
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.smallText {
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.input {
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: 16px;
+  font-weight: 500;
+  color: #030303;
+  line-height: 1.5;
+}
+
+.symbol {
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 0;
+}
+
+.boxColumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+
+.boxRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+
+.globalBox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+
+.boxCenter {
+  text-align: center;
+}
+
+.marginT40 {
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=default.module.css.map */
