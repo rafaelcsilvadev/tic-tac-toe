@@ -23,16 +23,16 @@
                  </h4>
             </div>
             <ul>
-                <li 1>
+                <li>
                     CSS Module
                 </li>
-                <li 2>
+                <li>
                     React.js
                 </li>
-                <li 3>
+                <li>
                     SASS
                 </li>
-                <li 4>
+                <li>
                     Styled Components
                 </li>                
             </ul>    
