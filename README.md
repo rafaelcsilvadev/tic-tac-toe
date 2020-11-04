@@ -13,7 +13,7 @@
                 <h4>
            </div>
             <p>
-                Este é uma PWA do famoso Jogo da Velha. Ne você poderá usar um nick name com até quatro letras e o jogador um poderá escolher o simbolo "X" ou "O" para o representar. Ao começar uma nova partida o placar será atualizado.  
+                Este projeto é uma PWA do famoso Jogo da Velha. Nele você o jogador um e o dois poderão usar nick name com até quatro letras e o jogador um poderá escolher o simbolo "X" ou "O" para o representar. Ao começar uma nova partida o placar será atualizado.  
             </p>
         </div>        
         <div>
