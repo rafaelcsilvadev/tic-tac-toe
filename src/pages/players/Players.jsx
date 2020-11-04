@@ -4,6 +4,7 @@ import { InputOne } from '../../components/inputs/Inputs';
 import { SelectOne } from '../../components/selects/Selects';
 import { ButtonOne } from '../../components/buttons/Buttons';
 import { ErrorMessage } from '../../components/errorMessage/errorMessage';
+import { Main } from '../../components/main/Main';
 
 function Players() {
 	const [namePlayer1, setNamePlayer1] = useState('');
@@ -40,72 +41,74 @@ function Players() {
 	};
 
 	return (
-		<div className={Style.globalBox}>
-			<div className={Style.boxColumnCenter}>
-				<div className={Style.boxCenter}>
-					<label htmlFor='player1' className={Style.text}>
-						Nome e simbolo do jogador 1:
-					</label>
-					<br />
-					<InputOne
-						id='player1'
-						name='player1'
-						type='text'
-						value={namePlayer1}
-						onChange={(e) => setNamePlayer1(e.target.value)}
-						maxLength={4}
-						placeholder='Nome jogador 1'
-						aria-label='Nome jogador 1'
-						aria-required='true'
-						margin='10px 10px 0 0'
-						className={Style.input}
-					/>
-					<SelectOne
-						value={symbol}
-						onChange={(e) => setSymbol(e.target.value)}
-						options={[
-							{ text: 'X', value: true },
-							{ text: 'O', value: false },
-						]}
-						margin='10px 10px 0 0'
-					/>
-					<ErrorMessage
-						text='Informe o nome do jogador 1'
-						color={errorPlayer1 ? '#f50c00' : '#212121'}
+		<Main>
+			<div className={Style.globalBox}>
+				<div className={Style.boxColumnCenter}>
+					<div className={Style.boxCenter}>
+						<label htmlFor='player1' className={Style.text}>
+							Nome e simbolo do jogador 1:
+						</label>
+						<br />
+						<InputOne
+							id='player1'
+							name='player1'
+							type='text'
+							value={namePlayer1}
+							onChange={(e) => setNamePlayer1(e.target.value)}
+							maxLength={4}
+							placeholder='Nome jogador 1'
+							aria-label='Nome jogador 1'
+							aria-required='true'
+							margin='10px 10px 0 0'
+							className={Style.input}
+						/>
+						<SelectOne
+							value={symbol}
+							onChange={(e) => setSymbol(e.target.value)}
+							options={[
+								{ text: 'X', value: true },
+								{ text: 'O', value: false },
+							]}
+							margin='10px 10px 0 0'
+						/>
+						<ErrorMessage
+							text='Informe o nome do jogador 1'
+							display={errorPlayer1 ? 'block' : 'none'}
+						/>
+					</div>
+					<div className={Style.boxCenter}>
+						<label htmlFor='player2' className={Style.text}>
+							Nome do jogador 2:
+						</label>
+						<br />
+						<InputOne
+							id='player2'
+							name='player2'
+							type='text'
+							value={namePlayer2}
+							onChange={(e) => setNamePlayer2(e.target.value)}
+							maxLength={4}
+							placeholder='Nome jogador 2'
+							aria-label='Nome jogador 2'
+							aria-required='true'
+							className={Style.input}
+							margin='10px 0 0 0'
+						/>
+						<br />
+						<ErrorMessage
+							text='Informe o nome do jogador 2'
+							display={errorPlayer2 ? 'block' : 'none'}
+						/>
+					</div>
+					<ButtonOne
+						text='Jogar'
+						onClick={saveInLocalStorage}
+						ariaLabel='Jogar'
+						className={Style.text}
 					/>
 				</div>
-				<div className={Style.boxCenter}>
-					<label htmlFor='player2' className={Style.text}>
-						Nome do jogador 2:
-					</label>
-					<br />
-					<InputOne
-						id='player2'
-						name='player2'
-						type='text'
-						value={namePlayer2}
-						onChange={(e) => setNamePlayer2(e.target.value)}
-						maxLength={4}
-						placeholder='Nome jogador 2'
-						aria-label='Nome jogador 2'
-						aria-required='true'
-						className={Style.input}
-						margin='10px 0 0 0'
-					/>
-					<br />
-					<ErrorMessage
-						text='Informe o nome do jogador 2'
-						color={errorPlayer2 ? '#f50c00' : '#212121'}
-					/>
-				</div>
-				<ButtonOne
-					text='Jogar'
-					onClick={saveInLocalStorage}
-					ariaLabel='Jogar'
-					className={Style.text}
-				/>
 			</div>
-		</div>
+		</Main>
 	);
 }
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Style from '../../styles/default.module.css';
 import { ButtonOne, ButtonTicTacToe } from '../../components/buttons/Buttons';
+import { Main } from '../../components/main/Main';
 
 function Game() {
 	const [squares, setSquares] = useState(Array(9).fill(null));
@@ -97,86 +98,88 @@ function Game() {
 	};
 
 	return (
-		<div className={Style.globalBox}>
-			<div className={Style.boxCenter}>
-				<div>
-					<span id='score' className={Style.smallText}>
-						{`${namePlayer1} ${pointsPlayer1} x  ${pointsPlayer2}  ${namePlayer2}`}
-					</span>
-				</div>
-				<div>
-					<span className={Style.title}>{message(winner(squares))}</span>
-				</div>
-				<div className={Style.marginT40}>
+		<Main>
+			<div className={Style.globalBox}>
+				<div className={Style.boxCenter}>
 					<div>
-						<ButtonTicTacToe
-							onClick={() => handleClick(0)}
-							ariaLabel='A-1'
-							text={squares[0]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(1)}
-							ariaLabel='B-1'
-							text={squares[1]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(2)}
-							ariaLabel='C-1'
-							text={squares[2]}
-							className={Style.symbol}
-						/>
+						<span id='score' className={Style.smallText}>
+							{`${namePlayer1} ${pointsPlayer1} x  ${pointsPlayer2}  ${namePlayer2}`}
+						</span>
 					</div>
 					<div>
-						<ButtonTicTacToe
-							onClick={() => handleClick(3)}
-							ariaLabel='A-2'
-							text={squares[3]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(4)}
-							ariaLabel='B-2'
-							text={squares[4]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(5)}
-							ariaLabel='C-2'
-							text={squares[5]}
-							className={Style.symbol}
-						/>
+						<span className={Style.title}>{message(winner(squares))}</span>
 					</div>
-					<div>
-						<ButtonTicTacToe
-							onClick={() => handleClick(6)}
-							ariaLabel='A-3'
-							text={squares[6]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(7)}
-							ariaLabel='A-3'
-							text={squares[7]}
-							className={Style.symbol}
-						/>
-						<ButtonTicTacToe
-							onClick={() => handleClick(8)}
-							ariaLabel='A-3'
-							text={squares[8]}
-							className={Style.symbol}
-						/>
+					<div className={Style.marginT40}>
+						<div>
+							<ButtonTicTacToe
+								onClick={() => handleClick(0)}
+								ariaLabel='A-1'
+								text={squares[0]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(1)}
+								ariaLabel='B-1'
+								text={squares[1]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(2)}
+								ariaLabel='C-1'
+								text={squares[2]}
+								className={Style.symbol}
+							/>
+						</div>
+						<div>
+							<ButtonTicTacToe
+								onClick={() => handleClick(3)}
+								ariaLabel='A-2'
+								text={squares[3]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(4)}
+								ariaLabel='B-2'
+								text={squares[4]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(5)}
+								ariaLabel='C-2'
+								text={squares[5]}
+								className={Style.symbol}
+							/>
+						</div>
+						<div>
+							<ButtonTicTacToe
+								onClick={() => handleClick(6)}
+								ariaLabel='A-3'
+								text={squares[6]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(7)}
+								ariaLabel='A-3'
+								text={squares[7]}
+								className={Style.symbol}
+							/>
+							<ButtonTicTacToe
+								onClick={() => handleClick(8)}
+								ariaLabel='A-3'
+								text={squares[8]}
+								className={Style.symbol}
+							/>
+						</div>
 					</div>
+					<ButtonOne
+						text='Nova partida'
+						onClick={() => clear()}
+						className={Style.text}
+						margin='40px 0 0 0'
+					/>
 				</div>
-				<ButtonOne
-					text='Nova partida'
-					onClick={() => clear()}
-					className={Style.text}
-					margin='40px 0 0 0'
-				/>
 			</div>
-		</div>
+		</Main>
 	);
 }
 

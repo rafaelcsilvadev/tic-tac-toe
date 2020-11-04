@@ -1,12 +1,14 @@
 import React from 'react';
-import { Message, BlockMessage } from './errorMessageStyles';
+import { MessageSC, BlockMessageSC } from './errorMessageStyles';
 
 export function ErrorMessage(props) {
 	return (
 		<>
-			<BlockMessage>
-				<Message color={props.color}>{props.text}</Message>
-			</BlockMessage>
+			<BlockMessageSC>
+				<MessageSC display={props.display}>
+					{props.text}
+				</MessageSC>
+			</BlockMessageSC>
 		</>
 	);
 }

@@ -1,8 +1,8 @@
 {
-	"short_name": "Tic-Tac-Toe",
+	"short_name": "Jogo da Velha",
 	"name": "Tic-Tac-Toe",
 	"lang": "en",
-	"description": "The game Tic-Tac-Toe",
+	"description": "O famoso Jogo da Velha",
 	"start_url": "/",
 	"background_color": "#212121",
 	"theme_color": "#212121",
@@ -11,9 +11,16 @@
 	"orientation": "portrait",
 	"icons": [
 		{
+			"src": "/icons/android-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		},
+		{
 			"src": "/icons/android-icon-192x192-dunplab-manifest-22311.png",
 			"type": "image/png",
-			"sizes": "192x192"
+			"sizes": "192x192",
+			"purpose": "any maskable"
 		},
 		{
 			"src": "/icons/apple-icon-180x180-dunplab-manifest-22311.png",

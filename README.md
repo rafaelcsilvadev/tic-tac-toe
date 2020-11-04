@@ -1,81 +1,49 @@
 <body>
     <header align='center'>
         <h3>
-            Tic-Tac-Toe
+            Jogo da Velha PWA
         </h3>        
     </header>
     <section>
-        <img src='./githubImages/imageGame.png' />
-        <img src='./githubImages/gifGame.gif' />
-        <div id='project-description'>
+        <img src='./githubImages/tic-tac-toe-gif.gif' alt="gif mostrando como o jogo rodando"/>
+        <div>
            <div>
                 <h4>
-                    Description:
+                    Descrição:
                 <h4>
            </div>
             <p>
-                This game is a PWA made using HTML, CSS, React.js.
+                Este é uma PWA do famoso Jogo da Velha. Ne você poderá usar um nick name com até quatro letras e o jogador um poderá escolher o simbolo "X" ou "O" para o representar. Ao começar uma nova partida o placar será atualizado.  
             </p>
         </div>        
-        <div id='list-technologies'>
+        <div>
             <div>
                 <h4>
-                    #Technologies
+                    #Tecnolgias usadas
                  </h4>
             </div>
             <ul>
-                <li>
-                    HTML
+                <li 1>
+                    CSS Module
                 </li>
-                <li>
-                    CSS
-                </li>
-                <li>
-                    JS
-                </li>
-                <li>
-                    JSX
-                </li>
-                <li>
+                <li 2>
                     React.js
                 </li>
-                <li>
-                    ESLint
+                <li 3>
+                    SASS
                 </li>
-                <li>
-                    Prettier
-                </li>
+                <li 4>
+                    Styled Components
+                </li>                
             </ul>    
         </div>
-        <div id='list-upgrades'>
-            <div>
-                <h4>
-                    #Future Upgrades
-                 </h4>
-            </div>
-            <ul>
-                <li>
-                    Show a message of tied game.
-                </li>
-                <li>
-                    Show players name.
-                </li>
-                <li>
-                    Show score.
-                </li>
-                <li>
-                    Modify New Game button for Clean button.
-                </li>
-                <li>
-                    Change CSS for Styled Components.
-                </li>
-                <li>
-                    Create Light and Dark mode.
-                </li>
-            </ul>    
+        <div>
+            <a href="https://www.linkedin.com/in/rcs-frontend/">
+                <img src="./githubImages/linkedin.svg" alt="logo do LinkedIn com acesso ao link da pagina do desenvolvedor" width='50px'>
+            </a>
         </div>
-        <div id="project-link">
-            <a  href="https://rafael-tic-tac-toe.herokuapp.com/">Project Link</a>
+        <div>
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> de <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         </div>
     </section>
 </body>
