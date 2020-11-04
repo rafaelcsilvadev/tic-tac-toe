@@ -53,7 +53,7 @@ function Players() {
 						type='text'
 						value={namePlayer1}
 						onChange={(e) => setNamePlayer1(e.target.value)}
-						maxLength={3}
+						maxLength={4}
 						placeholder='Nome jogador 1'
 						aria-label='Nome jogador 1'
 						aria-required='true'
@@ -81,7 +81,7 @@ function Players() {
 						type='text'
 						value={namePlayer2}
 						onChange={(e) => setNamePlayer2(e.target.value)}
-						maxLength={3}
+						maxLength={4}
 						placeholder='Nome jogador 2'
 						aria-label='Nome jogador 2'
 						aria-required='true'
