@@ -7,7 +7,7 @@ import { ErrorMessage } from '../../components/errorMessage/errorMessage';
 
 function Players() {
 	const [namePlayer1, setNamePlayer1] = useState('');
-	const [symbol, setSymbol] = useState(false);
+	const [symbol, setSymbol] = useState(true);
 	const [namePlayer2, setNamePlayer2] = useState('');
 	const [errorPlayer1, setErrorPlayer1] = useState(false);
 	const [errorPlayer2, setErrorPlayer2] = useState(false);
@@ -61,8 +61,12 @@ function Players() {
 						className={Style.input}
 					/>
 					<SelectOne
+						value={symbol}
 						onChange={(e) => setSymbol(e.target.value)}
-						options={[{ text: 'X' }, { text: 'O' }]}
+						options={[
+							{ text: 'X', value: true },
+							{ text: 'O', value: false },
+						]}
 						margin='10px 10px 0 0'
 					/>
 					<ErrorMessage

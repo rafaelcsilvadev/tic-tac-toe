@@ -6,16 +6,19 @@ export function SelectOne(props) {
 
 	return (
 		<SelectOneSC
+			value={props.value}
 			onChange={props.onChange}
 			className={props.className}
 			margin={props.margin}>
 			{arrayOptions.map((e, index) =>
 				index === 0 ? (
-					<option key={index} defaultValue>
+					<option key={index} value={e.value} defaultValue>
 						{e.text}
 					</option>
 				) : (
-					<option key={index}>{e.text}</option>
+					<option key={index} value={e.value}>
+						{e.text}
+					</option>
 				)
 			)}
 		</SelectOneSC>
