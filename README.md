@@ -1,7 +1,7 @@
 <body>
     <header align='center'>
         <h3>
-            Jogo da Velha PWA
+            Jogo da Velha
         </h3>        
     </header>
     <section>
