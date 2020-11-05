@@ -5,9 +5,7 @@ export function ErrorMessage(props) {
 	return (
 		<>
 			<BlockMessageSC>
-				<MessageSC display={props.display}>
-					{props.text}
-				</MessageSC>
+				<MessageSC display={props.display}>{props.text}</MessageSC>
 			</BlockMessageSC>
 		</>
 	);
