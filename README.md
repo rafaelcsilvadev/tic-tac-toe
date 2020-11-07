@@ -24,7 +24,7 @@
             </div>
             <ul>
                 <li>
-                    CSS Module
+                    CSS Modules
                 </li>
                 <li>
                     React.js
