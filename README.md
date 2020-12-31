@@ -17,7 +17,8 @@
 	✔️ Jogo da Velha 😃 Finalizado ✔️
 </h3>
 <h1>
-    <img src="./github/desktop.png">
+    <img src="./github/tic-tac-toe-img.png">
+    <img src="./github/tic-tac-toe-gif.gif">    
 </h1>
 <h1 id='objective'>Objetivo</h1>
 <h3>
