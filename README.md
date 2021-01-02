@@ -15,14 +15,20 @@
 </div>
 
 <p>
-    <a href="#objective">Objetivo</a> •
-    <a href="#technologies">Tecnologias</a> • 
-    <a href="#author">Autor</a>
+    <a href="#objective">
+        Objetivo
+    </a> •
+    <a href="#technologies">
+        Tecnologias
+    </a> • 
+    <a href="#author">
+        Autor
+    </a>
 </p>
 
-<h2> 
+<p> 
 	✔️ Jogo da Velha 😃 Finalizado ✔️
-</h2>
+</p>
 
 <div>
     <img src="./github/tic-tac-toe-img.png">
