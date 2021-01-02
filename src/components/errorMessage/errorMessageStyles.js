@@ -1,4 +1,4 @@
-import Styled from 'styled-components/macro';
+import Styled from "styled-components/macro";
 
 export const BlockMessageSC = Styled.div`
     margin: 10px 0;

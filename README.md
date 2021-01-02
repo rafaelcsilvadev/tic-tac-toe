@@ -1,5 +1,10 @@
-<h1>Jogo da Velha</h1>
-<h3>O famoso jogo da velha.</h3>
+<h2>    
+    Jogo da Velha
+</h2>
+<p>
+    O famoso jogo da velha.
+</p>
+
 <div>
     <img src="https://img.shields.io/static/v1?label=licenca&message=MIT&color=A3A3A3&style=flat">
     <img src="https://img.shields.io/static/v1?label=npm&message=6.14.5&color=A3A3A3&style=flat">
@@ -8,88 +13,72 @@
     <img src="https://img.shields.io/static/v1?label=next&message=10.0.3&color=A3A3A3&style=flat">
     <img src="https://img.shields.io/static/v1?label=sass&message=5.0.0&color=A3A3A3&style=flat">
 </div>
-<h3>
+
+<p>
     <a href="#objective">Objetivo</a> •
     <a href="#technologies">Tecnologias</a> • 
     <a href="#author">Autor</a>
-</h3>
-<h3> 
+</p>
+
+<h2> 
 	✔️ Jogo da Velha 😃 Finalizado ✔️
-</h3>
-<h1>
+</h2>
+
+<div>
     <img src="./github/tic-tac-toe-img.png">
     <img src="./github/tic-tac-toe-gif.gif">    
-</h1>
-<h1 id='objective'>Objetivo</h1>
-<h3>
+</div>
+
+<h2 id='objective'>Objetivo</h2>
+<p>
     Esse jogo foi feito para praticar React.js.
-</h3>
-<h1></h1>
-<h1>Como rodar na sua máquina</h1>
-<h2>Clone este repositório: </h4>
-<h3>$ git clone https://github.com/rafaelcsilvadev/tic-tac-toe</h4>
-<h2>Acesse a pasta do projeto no terminal/cmd:</h4>
-<h3>$ cd tic-tac-toe</h4>
-<h2>Instale as dependências</h2>
-<h3>$ npm install</h3>
-<h2>Execute a aplicação em modo de desenvolvimento</h2>
-<h3>$ npm run start</h3>
-<h2>O servidor iniciará na porta: 3000</h2>
-<h3>
-    Acesse:
-    <a href="localhost:3000">localhost:3000</a>
-</h3>
-<h1></h1>
-<h1 id='technologies'>Tecnologias</h1>
+</p>
+
+<h2 id='technologies'>
+    Tecnologias
+</h2>
 <ul>
     <li>
-        <h3>
-            <a href="reactjs.org/">React.js</a>
-        </h3>
+        <a href="reactjs.org/">React.js</a>
     </li>
     <li>
-        <h3>
-            <a href="styled-components.com">Styled Components</a>
-        </h3>
+        <a href="styled-components.com">Styled Components</a>
     </li>
     <li>
-        <h3>
-            <a href="sass-lang.com">Sass</a>
-        </h3>
+        <a href="sass-lang.com">Sass</a>
     </li>
 </ul>
-<h1></h1>
-<h1 id="author">Autor: Rafael Couto</h1>
+
+<h2 id="author">
+    Autor: Rafael Couto
+</h2>
 <img src="./github/autor.jpg" alt="" width="100px">
-<h3>
+<p>
     Desenvolvedor front-end júnior, apaixonado pela área e por resolver problemas.
-</h3>
+</p>
+
 <h2>Contatos:</h2>
 <ul>
     <li>
-        <h3>
-            Telefone: <a href="https://api.whatsapp.com/send?phone=5524999644346">
-                (24) 9 9964-4346
-            </a> 
-        </h3>
+        Telefone: <a href="https://api.whatsapp.com/send?phone=5524999644346">
+            (24) 9 9964-4346
+        </a> 
     </li>
     <li>
-        <h3>
-            Email: <a href="mailto:rafaelcsilva016@outlook.com">
-                rafaelcsilva016@outlook.com
-            </a>
-        </h3>
+        Email: <a href="mailto:rafaelcsilva016@outlook.com">
+            rafaelcsilva016@outlook.com
+        </a>
     </li>
     <li>
-        <h3>
-            LinkedIn:
-            <a href="linkedin.com/in/rcs-frontend/">Rafael Couto Silva</a>
-        </h3>
+        LinkedIn:
+        <a href="linkedin.com/in/rcs-frontend/">
+            Rafael Couto Silva
+        </a>
     </li>
     <li>
-        <h3>
-            GitHub:
-            <a href="gist.github.com/rafaelcsilvadev">rafaelcsilvadev</a>
-        </h3>
+        GitHub:
+        <a href="gist.github.com/rafaelcsilvadev">
+            rafaelcsilvadev
+        </a>
     </li>
 </ul>

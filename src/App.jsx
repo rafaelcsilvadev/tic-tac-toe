@@ -1,13 +1,13 @@
-import React from 'react';
-import Routes from './router';
-import './styles/reset.css';
+import React from "react";
+import Routes from "./router";
+import "./styles/reset.css";
 
 function App() {
-	return (
-		<>
-			<Routes />
-		</>
-	);
+  return (
+    <>
+      <Routes />
+    </>
+  );
 }
 
 export default App;

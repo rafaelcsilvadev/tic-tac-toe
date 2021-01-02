@@ -3,66 +3,66 @@ $marginTop60: 60px;
 
 //mixin
 @mixin font($size: 20px, $weight: 700, $color: #fff, $height: 1.8) {
-	font-family: 'Century Gothic', 'Verdana', 'Arial';
-	font-size: $size;
-	font-weight: $weight;
-	color: $color;
-	line-height: $height;
+  font-family: "Century Gothic", "Verdana", "Arial";
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $height;
 }
 
 @mixin flexBox(
-	$direction: column,
-	$align: center,
-	$justify: center,
-	$margin: 0 0 0 0
+  $direction: column,
+  $align: center,
+  $justify: center,
+  $margin: 0 0 0 0
 ) {
-	display: flex;
-	flex-direction: $direction;
-	align-items: $align;
-	justify-content: $justify;
-	margin: $margin;
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  margin: $margin;
 }
 
 //font
 .title {
-	@include font();
+  @include font();
 }
 
 .text {
-	@include font($size: 16px, $weight: 500);
+  @include font($size: 16px, $weight: 500);
 }
 
 .smallText {
-	@include font($size: 12px);
+  @include font($size: 12px);
 }
 
 .input {
-	@include font($size: 16px, $weight: 500, $height: 1.5, $color: #030303);
+  @include font($size: 16px, $weight: 500, $height: 1.5, $color: #030303);
 }
 
 .symbol {
-	@include font($size: 70px, $height: 0);
+  @include font($size: 70px, $height: 0);
 }
 //box
 .boxColumnCenter {
-	@include flexBox();
+  @include flexBox();
 }
 
 .boxRowCenter {
-	@include flexBox($direction: row);
+  @include flexBox($direction: row);
 }
 
 .globalBox {
-	width: 100vw;
-	height: 100vh;
-	@include flexBox($direction: row);
+  width: 100vw;
+  height: 100vh;
+  @include flexBox($direction: row);
 }
 
 .boxCenter {
-	text-align: center;
+  text-align: center;
 }
 
 //others
 .marginT40 {
-	margin-top: 40px;
+  margin-top: 40px;
 }

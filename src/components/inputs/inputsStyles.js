@@ -1,4 +1,4 @@
-import Styled from 'styled-components/macro';
+import Styled from "styled-components/macro";
 
 const DefaultStyle = Styled.input`
     padding: 0 2px;
