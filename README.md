@@ -55,6 +55,13 @@
     </li>
 </ul>
 
+<h2>
+    Link do projeto:
+</h2>
+<p>
+    <a href="https://rafael-tic-tac-toe.herokuapp.com/">https://rafael-tic-tac-toe.herokuapp.com/</a>
+</p>
+
 <h2 id="author">
     Autor: Rafael Couto
 </h2>
