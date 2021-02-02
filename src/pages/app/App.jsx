@@ -1,10 +1,11 @@
 import React from "react";
-import Routes from "./router";
-import "./styles/reset.css";
+import Routes from "../router";
+import { Global } from "./reset";
 
 function App() {
   return (
     <>
+      <Global />
       <Routes />
     </>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Game from "./pages/game/Game";
-import Players from "./pages/players/Players";
+import Game from "./game";
+import Players from "./players";
 
 function Routes() {
   return (

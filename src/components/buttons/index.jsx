@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonOneSC, ButtonTicTacToeSC } from "./buttonsStyles";
+import { ButtonOneSC, ButtonTicTacToeSC } from "./styles";
 
 export function ButtonOne(props) {
   return (

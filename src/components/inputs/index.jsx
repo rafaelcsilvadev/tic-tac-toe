@@ -1,5 +1,5 @@
 import React from "react";
-import { InputOneSC } from "./inputsStyles";
+import { InputOneSC } from "./styles";
 
 export function InputOne(props) {
   return (

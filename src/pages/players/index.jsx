@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Style from "../../styles/default.module.css";
-import { InputOne } from "../../components/inputs/Inputs";
-import { SelectOne } from "../../components/selects/Selects";
-import { ButtonOne } from "../../components/buttons/Buttons";
-import { ErrorMessage } from "../../components/errorMessage/errorMessage";
-import { Main } from "../../components/main/Main";
+import Style from "../../sass/default.module.scss";
+import { InputOne } from "../../components/inputs";
+import { SelectOne } from "../../components/selects";
+import { ButtonOne } from "../../components/buttons";
+import { ErrorMessage } from "../../components/errorMessage";
+import { Main } from "../../components/main";
 
 function Players() {
   const [namePlayer1, setNamePlayer1] = useState("");

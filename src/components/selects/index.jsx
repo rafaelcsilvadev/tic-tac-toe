@@ -1,5 +1,5 @@
 import React from "react";
-import { SelectOneSC } from "./selectsStyles";
+import { SelectOneSC } from "./styles";
 
 export function SelectOne(props) {
   const arrayOptions = [...props.options];

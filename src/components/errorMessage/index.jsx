@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageSC, BlockMessageSC } from "./errorMessageStyles";
+import { MessageSC, BlockMessageSC } from "./styles";
 
 export function ErrorMessage(props) {
   return (

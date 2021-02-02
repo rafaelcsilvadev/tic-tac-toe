@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Style from "../../styles/default.module.css";
-import { ButtonOne, ButtonTicTacToe } from "../../components/buttons/Buttons";
-import { Main } from "../../components/main/Main";
+import Style from "../../sass/default.module.scss";
+import { ButtonOne, ButtonTicTacToe } from "../../components/buttons";
+import { Main } from "../../components/main";
 
 function Game() {
   const [squares, setSquares] = useState(Array(9).fill(null));
